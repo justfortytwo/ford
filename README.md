@@ -1,4 +1,4 @@
-# @justfortytwo/persona
+# @justfortytwo/ford
 
 The templated **identity and runtime context** for a fortytwo ("Ford") personal
 assistant. This repo ships the scaffolding the installer renders into a user's
@@ -33,7 +33,7 @@ fortytwo.compat.json                   # contract majors this persona relies on
 
 ## How it works
 
-Templates use `{{placeholder}}` tokens. The CLI (`@justfortytwo/cli`) drives the
+Templates use `{{placeholder}}` tokens. The CLI (`@justfortytwo/magrathea`) drives the
 flow:
 
 1. **`fortytwo init`** prompts for each field in `manifest.json` (or accepts
@@ -84,12 +84,12 @@ targets. The CLI reads it during `fortytwo doctor` and warns on a mismatch:
 
 ```json
 {
-  "memoryToolContract": "^1",
+  "guideToolContract": "^1",
   "policySchema": "^1"
 }
 ```
 
-- **`memoryToolContract`** — the shape/set of memory MCP tools the wake routine
+- **`guideToolContract`** — the shape/set of guide MCP tools the wake routine
   and recall steps depend on.
 - **`policySchema`** — the approval-gate policy / allowlist format the
   non-negotiable policy and house rules assume.
