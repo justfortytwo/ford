@@ -1,5 +1,5 @@
 {
-  "$schema": "https://raw.githubusercontent.com/justfortytwo/ford/main/manifest.schema.json",
+  "$schema": "https://raw.githubusercontent.com/justfortytwo/persona/main/manifest.schema.json",
   "version": "1",
   "description": "Field manifest for the fortytwo persona templates. The CLI (fortytwo init) prompts for each field, stores answers in the gitignored .fortytwo/identity.json, and renders templates/**/*.tmpl into the project's gitignored context/. Every {{placeholder}} used in a template has an entry here.",
   "fields": [
@@ -8,7 +8,7 @@
       "prompt": "What is your assistant's name? (e.g. the persona it answers to)",
       "type": "string",
       "required": true,
-      "default": "Ford"
+      "default": null
     },
     {
       "key": "owner_name",

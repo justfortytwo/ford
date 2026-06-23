@@ -1,7 +1,7 @@
 {
-  "name": "@justfortytwo/ford",
+  "name": "@justfortytwo/persona",
   "fortytwo.compat": {
-    "guideToolContract": "^1",
+    "memoryToolContract": "^1",
     "policySchema": "^1"
   }
 }

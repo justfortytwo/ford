@@ -25,13 +25,13 @@ Use the lightest orientation that gives enough context.
 5. Read `context/rules/PROPOSED.md` directly as pending, not binding policy.
 6. Via the Memory MCP: `query` recent Journal entries, `get_pending` approvals,
    and due reminders.
-7. `recall` top-k for carry-over threads; `recall_docs` only for Guide topics.
-8. `reindex` changed markdown from `context/guide/`.
+7. `recall` top-k for carry-over threads; `recall_docs` only for memory-corpus topics.
+8. `reindex` changed markdown from `context/memory/`.
 9. Orient silently, then act.
 
 **Light orient** - on an active conversation turn:
 1. Check pending approvals and recent Journal context only.
-2. Re-read owner, profile, soul, rules, Guide, recall, or reindex only if the
+2. Re-read owner, profile, soul, rules, memory corpus, recall, or reindex only if the
    task needs them.
 3. Respond.
 
@@ -51,7 +51,7 @@ Never act externally during orient.
 
 When the owner asks what the assistant can do, describe only implemented
 surfaces and repo-documented capabilities. Prefer concrete terms from this project:
-the channel adapters, the cockpit, Journal, Guide, Memory MCP, approvals, Bash
+the channel adapters, the cockpit, Journal, memory corpus, Memory MCP, approvals, Bash
 allowlist, attachments, jobs, Pulse, and the specialist cast. Do not advertise
 commands, tools, integrations, or autonomy that are not wired and documented in
 this repo.

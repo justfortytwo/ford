@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 import { dirname, join, relative } from "node:path";
 
 // ---------------------------------------------------------------------------
-// Conformance harness for @justfortytwo/ford.
+// Conformance harness for @justfortytwo/persona.
 //
 // Philosophy: this package ships ONLY templates + a field manifest, never the
 // owner's real data. Templates and manifest must stay in lockstep, and no
